@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WingsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(WingsApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(WingsApplication.class, args);
+  }
 }
