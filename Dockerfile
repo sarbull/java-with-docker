@@ -2,10 +2,8 @@ FROM openjdk:8-jdk
 
 MAINTAINER Cezar Sirbu
 
-EXPOSE 4567
+EXPOSE 8080
 
-COPY target/*.jar /app/
+COPY target/wings-0.0.1-SNAPSHOT.jar /app/
 
-RUN ls /app
-
-CMD ["java", "-jar", "/app/wings-*.jar"]
+CMD ["java", "-jar", "/app/wings-0.0.1-SNAPSHOT.jar"]
